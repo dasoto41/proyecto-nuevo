@@ -1,0 +1,16 @@
+.footer {
+    background-color: rgb(255, 245, 109);
+    color: black;
+    font-family: 'lato', sans-serif;
+    height: 20px;
+    font-size: 15px;
+
+    .botonwsp {
+        position: fixed;
+        width: 50px;
+        height: 50px;
+        bottom: 10px;
+        right: 30px;
+        border-radius: 50px;
+    }
+}
