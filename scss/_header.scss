@@ -1,3 +1,12 @@
+/*map*/
+$styles:(
+  fuente:$fuente-ppal,
+  tamFuente:55px,
+  color:black,
+  );
+
+
+
 header{
   background-color:rgb(153, 255, 205);
       img{
@@ -6,10 +15,10 @@ header{
         border-radius:25px;
       }
       h1{
-        font-family: 'lato', sans-serif;
-        color: black;
-        font-size: 50px;
+        font-size:map-get($styles,tamFuente);
+        color:map-get($styles,color);
+        font-family: map-get($styles,fuente);
         font-weight: bold;
-        margin-left: 200px;
+        margin-left: 30px;
       }
     }

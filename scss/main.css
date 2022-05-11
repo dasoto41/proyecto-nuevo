@@ -2,6 +2,7 @@ body {
   background-color: rgb(153, 255, 205);
 }
 
+/*map*/
 header {
   background-color: rgb(153, 255, 205);
 }
@@ -11,11 +12,16 @@ header img {
   border-radius: 25px;
 }
 header h1 {
-  font-family: "lato", sans-serif;
+  font-size: 55px;
   color: black;
-  font-size: 50px;
+  font-family: "lato", sans-serif;
   font-weight: bold;
-  margin-left: 200px;
+  margin-left: 30px;
+}
+
+div p {
+  text-decoration: underline;
+  font-weight: bold;
 }
 
 .recuadro {
@@ -35,6 +41,9 @@ header h1 {
   padding: 30px;
   font-size: 20px;
   margin-top: 80px;
+}
+.recuadro fieldset p {
+  text-decoration: none;
 }
 .recuadro ul li {
   font-family: "lato", sans-serif;
@@ -64,14 +73,13 @@ header h1 {
   text-align: center;
 }
 
-.ubicacion .imgUbi {
+.ubicacion .imgUbi, .ubicacion .imgFlecha {
   width: 300px;
   height: 300px;
   border: 2px dashed black;
 }
 .ubicacion .imgFlecha {
-  width: 250px;
-  height: 250px;
+  border: none;
   -webkit-animation-name: aparecer;
           animation-name: aparecer;
   -webkit-animation-duration: 1s;
@@ -94,6 +102,11 @@ header h1 {
   100% {
     opacity: 1;
   }
+}
+
+.tituloUbi {
+  text-decoration: underline;
+  font-weight: bold;
 }
 
 .footer {

@@ -1,5 +1,8 @@
+$color-ppal:rgb(153, 255, 205);
+$fuente-ppal:'lato', sans-serif;
 body{
-    background-color: rgb(153, 255, 205);}
+    background-color:$color-ppal;
+}
     
 @import "header";
 @import "ppal";
