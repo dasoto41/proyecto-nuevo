@@ -12,7 +12,7 @@ header img {
   border-radius: 25px;
 }
 header h1 {
-  font-size: 55px;
+  font-size: 45px;
   color: black;
   font-family: "lato", sans-serif;
   font-weight: bold;
@@ -109,6 +109,171 @@ div p {
   font-weight: bold;
 }
 
+@media screen and (max-width: 320px) {
+  .imgFlecha {
+    display: none;
+  }
+
+  .tabla p {
+    font-size: 15px;
+    color: black;
+    margin: auto;
+  }
+
+  table tr th {
+    font-size: 20px;
+    text-align: center;
+    width: auto;
+  }
+  table tr td {
+    font-size: 20px;
+    text-align: center;
+    width: auto;
+  }
+}
+/*page sobre nosotros*/
+main h2 {
+  text-align: center;
+  font-family: "lato", sans-serif, sans-serif;
+  font-size: 30px;
+  margin-top: 35px;
+  color: black;
+}
+main h2 a {
+  text-decoration: none;
+  color: black;
+}
+
+.contenedor fieldset {
+  order-radius: 25px;
+  background-image: linear-gradient(0deg, #D9AFD9 0%, #97D9E1 100%);
+  border-color: rgb(255, 151, 113);
+  border: solid;
+  margin: 10px;
+  width: 100%;
+}
+.contenedor h3 {
+  text-align: center;
+  font-style: oblique;
+  font-family: "lato", sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  text-shadow: 2px 2px 2px coral;
+  margin-top: 50px;
+  padding: 15px;
+  color: rgb(30, 56, 56);
+  transition: font-size 2s;
+}
+.contenedor h3:hover {
+  font-size: 50px;
+}
+.contenedor img {
+  display: inline-block;
+  width: 15%;
+  margin-right: 100px;
+  margin-bottom: 20px;
+}
+.contenedor p {
+  font-family: "lato", sans-serif;
+  display: inline-block;
+  width: 55%;
+  margin-bottom: 40px;
+  font-size: 24px;
+  text-transform: capitalize;
+}
+
+@media screen and (max-width: 320px) {
+  .contenedor fieldset {
+    width: auto;
+  }
+}
+/* page:sucursales */
+.recuadro h1 {
+  padding: 40px;
+}
+.recuadro ul li {
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.carrousel {
+  border-radius: 25px;
+  border: solid;
+  background-color: rgb(255, 245, 109);
+  padding: 50px;
+  margin: 20px;
+}
+
+/*PAGE CONTACTO*/
+.fieldsetContacto {
+  background-image: radial-gradient(circle at 50% -20.71%, #ffffdb 0, #ffffd4 8.33%, #ffffce 16.67%, #f7fec7 25%, #e9fbc1 33.33%, #daf7bb 41.67%, #c9f2b5 50%, #b7edb1 58.33%, #a4e9af 66.67%, #91e5af 75%, #7ce2b1 83.33%, #66dfb4 91.67%, #4cdcb9 100%);
+  margin: 5px;
+  padding: 5px;
+}
+.fieldsetContacto legend {
+  font-family: "lato", sans-serif;
+  font-size: 15px;
+  padding: 15px;
+  font-weight: bold;
+}
+
+.botonForm {
+  background-image: linear-gradient(to right, #DA22FF 0%, #9733EE 51%, #DA22FF 100%);
+  margin: 10px;
+  padding: 15px 45px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+  display: block;
+}
+.botonForm:hover {
+  background-position: right center;
+  color: #fff;
+  text-decoration: none;
+}
+
+/*PREGUNTAS FRECUENTES*/
+.h2preguntasFrec {
+  font-family: "lato", sans-serif;
+  font-size: 17px;
+  padding: 20px;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  -webkit-animation-name: show;
+          animation-name: show;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes show {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes show {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+ul p {
+  font-size: 29px;
+}
+
+ol li {
+  display: block;
+}
+
 .footer {
   background-color: rgb(255, 245, 109);
   color: black;
@@ -123,4 +288,10 @@ div p {
   bottom: 10px;
   right: 30px;
   border-radius: 50px;
+}
+
+@media screen and (max-width: 320px) {
+  .footer {
+    height: auto;
+  }
 }/*# sourceMappingURL=main.css.map */
